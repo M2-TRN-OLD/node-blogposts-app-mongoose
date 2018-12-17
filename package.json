@@ -1,0 +1,21 @@
+{
+  "name": "blogposts-app-mongoose",
+  "version": "1.0.0",
+  "description": "blogpost api practice",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "blogposts-app-mongoose"
+  },
+  "author": "Missy Maloney",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.4.0",
+    "morgan": "^1.9.1",
+    "uuid": "^3.3.2"
+  }
+}
