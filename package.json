@@ -4,6 +4,7 @@
   "description": "blogpost api practice",
   "main": "index.js",
   "scripts": {
+    "start": "node server.js",
     "test": "test"
   },
   "repository": {
