@@ -1,5 +1,5 @@
 'use strict';
 
 exports.DATABASE_URL = 
-  process.env.DATABASE_URL || 'mongodb://localhost/node-blogposts-app-mongoose/posts';
+  process.env.DATABASE_URL || 'mongodb://localhost/node-blogposts-app-mongoose/blogpost-db';
 exports.PORT = process.env.PORT || 8080;
