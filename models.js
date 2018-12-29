@@ -9,7 +9,13 @@ const blogpostSchema = mongoose.Schema({
     author: {
         firstName: String,
         lastName: String
-    }
+    },
+    created:{
+        type: Date,
+        // `Date.now()` returns the current unix timestamp as a number
+        default: Date.now
+      }
+
 });
 
 blogpostSchema.virtual("authorName").get(function() {
@@ -21,7 +27,7 @@ blogpostSchema.methods.serialize = function() {
         title: this.title,
         content: this.content,
         author: this.author,
-        created: this._created
+        created: this.created
     };
 };
 

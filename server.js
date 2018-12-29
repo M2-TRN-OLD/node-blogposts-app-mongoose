@@ -3,7 +3,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 
-mongoose.Promise - global.Promise;
+mongoose.Promise = global.Promise;
 
 //config.js is where we control constanct for entire app:  PORT, DATABASE_URL
 const {PORT, DATABASE_URL} = require('./config');
@@ -13,7 +13,7 @@ const app = express();
 app.use(express.json());
 
 //GET requests to /posts
-app.get("/data", (req, res) => {
+app.get("/posts", (req, res) => {
     Blog
       .find()
       .then(blogposts => {
