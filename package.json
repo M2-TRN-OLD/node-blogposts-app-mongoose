@@ -1,15 +1,11 @@
 {
-  "name": "node-blogposts-app-mongoose",
+  "name": "blogposts-app-mongoose",
   "version": "1.0.0",
   "description": "blogpost api practice",
   "main": "index.js",
   "scripts": {
     "start": "node server.js",
     "test": "test"
-  },
-  "repository": {
-    "type": "git",
-    "url": "blogposts-app-mongoose"
   },
   "author": "Missy Maloney",
   "license": "ISC",
@@ -19,5 +15,13 @@
     "morgan": "^1.9.1",
     "uuid": "^3.3.2"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MissyM2/node-blogposts-app-mongoose.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MissyM2/node-blogposts-app-mongoose/issues"
+  },
+  "homepage": "https://github.com/MissyM2/node-blogposts-app-mongoose#readme"
 }
